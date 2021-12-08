@@ -1,0 +1,17 @@
+@use "fonts";
+@use "color";
+@use "typography";
+@use "ul";
+@use "header";
+
+@use "page1/block-footer";
+@use "page1/block-how";
+@use "page1/block-who";
+@use "page1/block-what";
+
+@use "page2/block-conditions";
+@use "page2/block-tariffs";
+@use "page2/oferta";
+
+@use "page3/block-difference";
+@use "page3/block-team";
