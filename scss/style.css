@@ -3,6 +3,8 @@
 @use "typography";
 @use "ul";
 @use "header";
+@use "breakpoints";
+@use "mixins";
 @use "page1/block-footer";
 @use "page1/block-how";
 @use "page1/block-who";
