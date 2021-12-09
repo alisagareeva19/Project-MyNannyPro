@@ -1,8 +1,22 @@
 {
     "version": 3,
-    "mappings": "AAAA,IAAI,CAAJ,OAAI;AACJ,IAAI,CAAJ,OAAI;AACJ,IAAI,CAAJ,YAAI;AACJ,IAAI,CAAJ,IAAI;AACJ,IAAI,CAAJ,QAAI;AAEJ,IAAI,CAAJ,oBAAI;AACJ,IAAI,CAAJ,iBAAI;AACJ,IAAI,CAAJ,iBAAI;AACJ,IAAI,CAAJ,kBAAI;AAEJ,IAAI,CAAJ,wBAAI;AACJ,IAAI,CAAJ,qBAAI;AACJ,IAAI,CAAJ,cAAI;AAEJ,IAAI,CAAJ,wBAAI;AACJ,IAAI,CAAJ,kBAAI",
+    "mappings": "ACGA,AAAA,UAAU,CAAC;EACP,IAAI,EAJO,YAAY,EAC3B,UAAU;CAIT;;AQFD,AAAA,UAAU,CAAC;EACP,IAAI,EAJO,YAAY,EAC3B,UAAU;CAIT;;AAGD,AAAA,eAAe,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;EAC9B,kBAAkB,EAAE,WAAW;EAC/B,WAAW,EAAE,GAAG;CACnB;;AAED,AAAA,mBAAmB,CAAC;EAChB,SAAS,EAAE,OAAO;CACrB;;AAED,AAAA,mBAAmB,CAAC;EAChB,SAAS,EAAE,OAAO;CACrB;;AAED,AAAA,cAAc,CAAC;EACX,SAAS,EAAE,OAAO;CACrB;;AAED,AAAA,eAAe,CAAC;EACZ,SAAS,EAAE,OAAO;CACrB",
     "sources": [
-        "style.scss"
+        "style.scss",
+        "_fonts.scss",
+        "_color.scss",
+        "_typography.scss",
+        "_ul.scss",
+        "_header.scss",
+        "page1/_block-footer.scss",
+        "page1/_block-how.scss",
+        "page1/_block-who.scss",
+        "page1/_block-what.scss",
+        "page2/_block-conditions.scss",
+        "page2/_block-tariffs.scss",
+        "page2/_oferta.scss",
+        "page3/_block-difference.scss",
+        "page3/_block-team.scss"
     ],
     "names": [],
     "file": "style.css"

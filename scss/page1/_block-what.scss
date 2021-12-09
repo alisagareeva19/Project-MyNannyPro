@@ -1,0 +1,30 @@
+$default-font: 'Montserrat',
+sans-serif;
+
+.container {
+    font: $default-font;
+}
+
+
+.block-whatwedo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 80%;
+    font-weight: 600;
+}
+
+.block-whatwedo__h1 {
+    grid-area: 1/1/2/3;
+}
+
+.block-whatwedo__h2 {
+    grid-area: 2/1/3/3;
+}
+
+.single-visits {
+    grid-area: 3/1/4/2;
+}
+
+.regular-visits {
+    grid-area: 3/2/4/3;
+}

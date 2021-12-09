@@ -1,17 +1,17 @@
-@use "fonts";
-@use "color";
-@use "typography";
-@use "ul";
-@use "header";
+@import "fonts";
+@import "color";
+@import "typography";
+@import "ul";
+@import "header";
 
-@use "page1/block-footer";
-@use "page1/block-how";
-@use "page1/block-who";
-@use "page1/block-what";
+@import "page1/block-footer";
+@import "page1/block-how";
+@import "page1/block-who";
+@import "page1/block-what";
 
-@use "page2/block-conditions";
-@use "page2/block-tariffs";
-@use "page2/oferta";
+@import "page2/block-conditions";
+@import "page2/block-tariffs";
+@import "page2/oferta";
 
-@use "page3/block-difference";
-@use "page3/block-team";
+@import "page3/block-difference";
+@import "page3/block-team";
