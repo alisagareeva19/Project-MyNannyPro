@@ -1,5 +1,5 @@
 .container {
-  font: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 480px) {
@@ -33,7 +33,6 @@
 }
 
 .container {
-  font: "Montserrat", sans-serif;
   color: #292F36;
 }
 
@@ -47,9 +46,9 @@
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  -ms-grid-rows: 20% 20% 80%;
-      grid-template-rows: 20% 20% 80%;
-  grid-gap: 5%;
+  -ms-grid-rows: 12% 10% 80%;
+      grid-template-rows: 12% 10% 80%;
+  grid-gap: 3%;
 }
 
 .block-whatwedo__h1 {
@@ -58,7 +57,7 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: 1/1/2/3;
-  font-size: 2em;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
@@ -87,5 +86,85 @@
   -ms-grid-column-span: 1;
   grid-area: 3/2/4/3;
   background-color: #F2F2F5;
+}
+
+.single-visits,
+.regular-visits {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10%;
+  padding: 10%;
+  height: 100%;
+  -ms-grid-rows: 20% 10% 60%;
+      grid-template-rows: 20% 10% 60%;
+}
+
+.single-visis__header,
+.regular-visits__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.single-visits__h3,
+.regular-visits__h3 {
+  margin-left: -6em;
+}
+
+.single-visits__p,
+.regular-visits__p {
+  font-size: 1.3rem;
+  font-weight: 450;
+}
+
+.regular-visits__list,
+.single-visits__list {
+  font-weight: 450;
+}
+
+.regular-visits__list_h3,
+.single-visits__list_h3 {
+  font-size: 1.2rem;
+}
+
+.regular-visits__list_point,
+.single-visits__list_point {
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.single-visits__list_point li::before {
+  content: "\2022";
+  color: #F693BC;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.single-visits__list_h3 {
+  color: #F693BC;
+}
+
+.regular-visits__list_point li::before {
+  content: "\2022";
+  color: #4DCDC4;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -2em;
+}
+
+li {
+  margin-bottom: 3%;
+}
+
+.regular-visits__list_h3 {
+  color: #4DCDC4;
 }
 /*# sourceMappingURL=style.css.map */
