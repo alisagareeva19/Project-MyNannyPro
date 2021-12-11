@@ -157,15 +157,12 @@
 .block-whowe__slogan_slider {
   height: 185px;
   overflow: hidden;
-  padding: 0 10px;
 }
 
 .block-whowe__slogan_slider > div {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #FFF;
   height: 185px;
-  padding: 0 10px;
   text-align: start;
 }
 
