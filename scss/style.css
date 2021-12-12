@@ -32,10 +32,9 @@
   }
 }
 
-.block-whowe__image_background {
-  background: #FEE474 70%;
-}
-
+/* html {
+    overflow-x: hidden;
+} */
 .container {
   min-width: 100%;
 }
@@ -43,37 +42,47 @@
 .block-whowe {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  -ms-grid-rows: (1fr)[3];
-      grid-template-rows: repeat(3, 1fr);
+  min-height: 80vh;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.block-whowe__slogan {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  grid-row: 1/3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
+@media (min-width: 1200px) {
+  .block-whowe {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+    min-height: 80vh;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
 }
 
-.block-whowe__text {
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3/4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
+@media (min-width: 1200px) {
+  .block-whowe__slogan {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1/3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
 }
 
-.block-whowe__image {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 3;
-  grid-row: 1/4;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
+@media (min-width: 1200px) {
+  .block-whowe__text {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
 }
 
 .block-whowe_p {
@@ -490,6 +499,40 @@
   }
   100% {
     margin-top: 0;
+  }
+}
+
+.block-whowe__image {
+  width: 30vw;
+  height: 80vh;
+  position: absolute;
+  /*  height: 100%;
+    width: 100%; */
+  right: 0;
+}
+
+.block-whowe__image_background {
+  background: #FEE474;
+}
+
+.block-whowe__img-dots {
+  max-width: 40%;
+  position: absolute;
+  top: 0;
+  right: 15%;
+}
+
+.block-whowe__img1 {
+  max-width: 60%;
+  position: absolute;
+  top: 20%;
+  right: 50%;
+}
+
+@media (max-width: 1200px) {
+  .block-whowe__image,
+  .block-whowe__image_background {
+    display: none;
   }
 }
 
