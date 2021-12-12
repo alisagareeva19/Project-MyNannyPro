@@ -166,6 +166,12 @@
   text-align: start;
 }
 
+.block-whowe__slogan_background {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(29%, #FFFFFF), color-stop(29%, #FEE474), color-stop(38%, #FFFFFF)) no-repeat;
+  background: linear-gradient(to bottom, #FFFFFF 29%, #FEE474 29% 38%, #FFFFFF 38% 100%) no-repeat;
+  background-size: 280px auto;
+}
+
 .block-whowe__slogan1 {
   -webkit-animation: slide 12s linear infinite;
           animation: slide 12s linear infinite;
