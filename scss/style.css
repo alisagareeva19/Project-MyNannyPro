@@ -171,24 +171,24 @@ li {
 .container {
   color: #292F36;
   background-color: #F2F2F5;
-  height: 85vw;
+  height: 90vw;
 }
 
 @media (max-width: 1200px) {
   .container {
-    height: 135vw;
+    height: 140vw;
   }
 }
 
 @media (max-width: 960px) {
   .container {
-    height: 155vw;
+    height: 160vw;
   }
 }
 
 @media (max-width: 640px) {
   .container {
-    height: 195vw;
+    height: 200vw;
   }
 }
 
@@ -204,7 +204,7 @@ li {
 }
 
 .block-difference {
-  margin-bottom: 30%;
+  padding-top: 6%;
 }
 
 .block-difference__h1 {
