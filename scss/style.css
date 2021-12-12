@@ -32,6 +32,10 @@
   }
 }
 
+.block-whowe__image_background {
+  background: #FEE474 70%;
+}
+
 .container {
   min-width: 100%;
 }
@@ -130,19 +134,19 @@
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 960px) and (max-width: 1200px) {
   .block-whowe_h1 {
     font-size: 2.5rem;
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 640px) and (max-width: 960px) {
   .block-whowe_h1 {
     font-size: 1.8rem;
   }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 480px) and (max-width: 640px) {
   .block-whowe_h1 {
     font-size: 2.1rem;
   }
@@ -155,21 +159,285 @@
 }
 
 .block-whowe__slogan_slider {
-  height: 185px;
+  height: 205px;
   overflow: hidden;
 }
 
 .block-whowe__slogan_slider > div {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 185px;
+  height: 205px;
   text-align: start;
 }
 
 .block-whowe__slogan_background {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(29%, #FFFFFF), color-stop(29%, #FEE474), color-stop(38%, #FFFFFF)) no-repeat;
-  background: linear-gradient(to bottom, #FFFFFF 29%, #FEE474 29% 38%, #FFFFFF 38% 100%) no-repeat;
-  background-size: 280px auto;
+  -webkit-animation: back 12s infinite;
+          animation: back 12s infinite;
+}
+
+@media (min-width: 1200px) {
+  .block-whowe__slogan_background {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FFFFFF), color-stop(50%, #FEE474), color-stop(60%, #FFFFFF)) no-repeat;
+    background: linear-gradient(to bottom, #FFFFFF 50%, #FEE474 50% 60%, #FFFFFF 60% 100%) no-repeat;
+  }
+  @-webkit-keyframes back {
+    0% {
+      background-size: 550px auto;
+    }
+    5% {
+      background-size: 550px auto;
+    }
+    33% {
+      background-size: 550px auto;
+    }
+    38% {
+      background-size: 550px auto;
+    }
+    66% {
+      background-size: 550px auto;
+    }
+    68% {
+      background-size: 350px auto;
+    }
+    100% {
+      background-size: 350px auto;
+    }
+  }
+  @keyframes back {
+    0% {
+      background-size: 550px auto;
+    }
+    5% {
+      background-size: 550px auto;
+    }
+    33% {
+      background-size: 550px auto;
+    }
+    38% {
+      background-size: 550px auto;
+    }
+    66% {
+      background-size: 550px auto;
+    }
+    68% {
+      background-size: 350px auto;
+    }
+    100% {
+      background-size: 350px auto;
+    }
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  .block-whowe__slogan_background {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(28%, #FFFFFF), color-stop(28%, #FEE474), color-stop(40%, #FFFFFF)) no-repeat;
+    background: linear-gradient(to bottom, #FFFFFF 28%, #FEE474 28% 38%, #FFFFFF 40% 100%) no-repeat;
+  }
+  @-webkit-keyframes back {
+    0% {
+      background-size: 350px auto;
+    }
+    5% {
+      background-size: 350px auto;
+    }
+    33% {
+      background-size: 350px auto;
+    }
+    38% {
+      background-size: 350px auto;
+    }
+    66% {
+      background-size: 350px auto;
+    }
+    68% {
+      background-size: 250px auto;
+    }
+    100% {
+      background-size: 250px auto;
+    }
+  }
+  @keyframes back {
+    0% {
+      background-size: 350px auto;
+    }
+    5% {
+      background-size: 350px auto;
+    }
+    33% {
+      background-size: 350px auto;
+    }
+    38% {
+      background-size: 350px auto;
+    }
+    66% {
+      background-size: 350px auto;
+    }
+    68% {
+      background-size: 250px auto;
+    }
+    100% {
+      background-size: 250px auto;
+    }
+  }
+}
+
+@media (min-width: 640px) and (max-width: 960px) {
+  .block-whowe__slogan_background {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(18%, #FFFFFF), color-stop(18%, #FEE474), color-stop(28%, #FFFFFF)) no-repeat;
+    background: linear-gradient(to bottom, #FFFFFF 18%, #FEE474 18% 28%, #FFFFFF 28% 100%) no-repeat;
+  }
+  @-webkit-keyframes back {
+    0% {
+      background-size: 250px auto;
+    }
+    5% {
+      background-size: 250px auto;
+    }
+    33% {
+      background-size: 250px auto;
+    }
+    38% {
+      background-size: 250px auto;
+    }
+    66% {
+      background-size: 250px auto;
+    }
+    68% {
+      background-size: 180px auto;
+    }
+    100% {
+      background-size: 180px auto;
+    }
+  }
+  @keyframes back {
+    0% {
+      background-size: 250px auto;
+    }
+    5% {
+      background-size: 250px auto;
+    }
+    33% {
+      background-size: 250px auto;
+    }
+    38% {
+      background-size: 250px auto;
+    }
+    66% {
+      background-size: 250px auto;
+    }
+    68% {
+      background-size: 180px auto;
+    }
+    100% {
+      background-size: 180px auto;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 640px) {
+  .block-whowe__slogan_background {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(22%, #FFFFFF), color-stop(22%, #FEE474), color-stop(32%, #FFFFFF)) no-repeat;
+    background: linear-gradient(to bottom, #FFFFFF 22%, #FEE474 22% 32%, #FFFFFF 32% 100%) no-repeat;
+  }
+  @-webkit-keyframes back {
+    0% {
+      background-size: 350px auto;
+    }
+    5% {
+      background-size: 350px auto;
+    }
+    33% {
+      background-size: 350px auto;
+    }
+    38% {
+      background-size: 350px auto;
+    }
+    66% {
+      background-size: 350px auto;
+    }
+    68% {
+      background-size: 200px auto;
+    }
+    100% {
+      background-size: 200px auto;
+    }
+  }
+  @keyframes back {
+    0% {
+      background-size: 350px auto;
+    }
+    5% {
+      background-size: 350px auto;
+    }
+    33% {
+      background-size: 350px auto;
+    }
+    38% {
+      background-size: 350px auto;
+    }
+    66% {
+      background-size: 350px auto;
+    }
+    68% {
+      background-size: 200px auto;
+    }
+    100% {
+      background-size: 200px auto;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .block-whowe__slogan_background {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #FFFFFF), color-stop(15%, #FEE474), color-stop(20%, #FFFFFF)) no-repeat;
+    background: linear-gradient(to bottom, #FFFFFF 15%, #FEE474 15% 20%, #FFFFFF 20% 100%) no-repeat;
+  }
+  @-webkit-keyframes back {
+    0% {
+      background-size: 300px auto;
+    }
+    5% {
+      background-size: 300px auto;
+    }
+    33% {
+      background-size: 300px auto;
+    }
+    38% {
+      background-size: 300px auto;
+    }
+    66% {
+      background-size: 300px auto;
+    }
+    68% {
+      background-size: 150px auto;
+    }
+    100% {
+      background-size: 150px auto;
+    }
+  }
+  @keyframes back {
+    0% {
+      background-size: 300px auto;
+    }
+    5% {
+      background-size: 300px auto;
+    }
+    33% {
+      background-size: 300px auto;
+    }
+    38% {
+      background-size: 300px auto;
+    }
+    66% {
+      background-size: 300px auto;
+    }
+    68% {
+      background-size: 150px auto;
+    }
+    100% {
+      background-size: 150px auto;
+    }
+  }
 }
 
 .block-whowe__slogan1 {
@@ -179,19 +447,19 @@
 
 @-webkit-keyframes slide {
   0% {
-    margin-top: -740px;
+    margin-top: -820px;
   }
   5% {
-    margin-top: -370px;
+    margin-top: -410px;
   }
   33% {
-    margin-top: -370px;
+    margin-top: -410px;
   }
   38% {
-    margin-top: -180px;
+    margin-top: -205px;
   }
   66% {
-    margin-top: -180px;
+    margin-top: -205px;
   }
   72% {
     margin-top: 0;
@@ -203,19 +471,19 @@
 
 @keyframes slide {
   0% {
-    margin-top: -740px;
+    margin-top: -820px;
   }
   5% {
-    margin-top: -370px;
+    margin-top: -410px;
   }
   33% {
-    margin-top: -370px;
+    margin-top: -410px;
   }
   38% {
-    margin-top: -180px;
+    margin-top: -205px;
   }
   66% {
-    margin-top: -180px;
+    margin-top: -205px;
   }
   72% {
     margin-top: 0;
