@@ -1,22 +1,22 @@
 .container {
     color: $darkColor;
     background-color: $backgroundColor;
-    height: 90vw;
+    height: 8vw;
 
     @media (max-width:$desktop) {
-        height: 140vw;
+        height: 120vw;
     }
 
     @media (max-width: $tablet) {
-        height: 160vw;
+        height: 150vw;
     }
 
     @media (max-width: $mobile) {
-        height: 200vw;
+        height: 190vw;
     }
 
     @media (max-width: $smallMobile) {
-        height: 200vw;
+        height: 195vw;
     }
 }
 
@@ -49,8 +49,8 @@
 
 .block-difference__items {
     display: grid;
-    grid-template-columns: 30% 16% 16% 16%;
-    grid-gap: 6%;
+    grid-template-columns: 30% 17% 17% 17%;
+    grid-gap: 5%;
     background-color: $baseColor;
 }
 
@@ -101,10 +101,11 @@
 
 .block-difference__table {
     display: grid;
-    grid-template-columns: 30% 16% 16% 16%;
+    grid-template-columns: 30% 17% 17% 17%;
     grid-template-rows: repeat(10 1fr);
-    grid-gap: 6%;
+    grid-gap: 5%;
     padding-top: 3%;
+    font-size: 0.91em;
 
     @media (max-width: $tablet) {
         font-size: 0.8em;
