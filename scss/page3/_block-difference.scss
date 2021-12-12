@@ -1,6 +1,23 @@
 .container {
     color: $darkColor;
     background-color: $backgroundColor;
+    height: 85vw;
+
+    @media (max-width:$desktop) {
+        height: 135vw;
+    }
+
+    @media (max-width: $tablet) {
+        height: 155vw;
+    }
+
+    @media (max-width: $mobile) {
+        height: 195vw;
+    }
+
+    @media (max-width: $smallMobile) {
+        height: 200vw;
+    }
 }
 
 .container__row {
@@ -16,6 +33,18 @@
     font-size: 2.5rem;
     font-weight: 600;
     padding-bottom: 4%;
+
+    @media (max-width: $tablet) {
+        font-size: 2rem;
+    }
+
+    @media (max-width: $mobile) {
+        font-size: 1.5rem;
+    }
+
+    @media (max-width: $smallMobile) {
+        font-size: 1rem;
+    }
 }
 
 .block-difference__items {
@@ -34,6 +63,24 @@
     color: $lightColor;
     padding-top: 10%;
     padding-bottom: 10%;
+
+    @media (max-width:$desktop) {
+        font-size: 1.1em;
+    }
+
+    @media (max-width: $tablet) {
+        font-size: 0.8em;
+    }
+
+    @media (max-width: $mobile) {
+        font-size: 0.55em;
+    }
+
+    @media (max-width: $smallMobile) {
+        font-size: 0.3em;
+    }
+
+
 }
 
 .block-difference__item1 {
@@ -58,6 +105,20 @@
     grid-template-rows: repeat(10 1fr);
     grid-gap: 6%;
     padding-top: 3%;
+
+    @media (max-width: $tablet) {
+        font-size: 0.8em;
+    }
+
+    @media (max-width: $mobile) {
+        font-size: 0.55em;
+    }
+
+    @media (max-width: $smallMobile) {
+        font-size: 0.3em;
+    }
+
+
 }
 
 .block-difference__element1,
@@ -92,6 +153,21 @@
 .block-difference__element30 {
     width: 2.5rem;
     height: 2.5rem;
+
+    @media (max-width: $tablet) {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    @media (max-width: $mobile) {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    @media (max-width: $smallMobile) {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
 }
 
 .block-difference__text1 {
