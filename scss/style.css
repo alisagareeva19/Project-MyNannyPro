@@ -1101,6 +1101,32 @@ li {
   color: #4DCDC4;
 }
 
+.container {
+  background-color: #4DCDC4;
+}
+
+.container__row {
+  width: 100%;
+  margin: auto;
+}
+
+.block-tariffs__header, .block-tariffs__p {
+  color: white;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.block-tariffs__header {
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-top: 6%;
+}
+
+.block-tariffs__p {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
 .table-hours__header,
 .table-hours__columns {
   background-color: #F2F2F5;
@@ -1111,6 +1137,7 @@ li {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
+  margin-bottom: 2rem;
 }
 
 .table-hours__header {
@@ -1127,13 +1154,105 @@ li {
   text-align: left;
 }
 
-.table-hours__columns_item {
-  padding: 2%;
-  margin-left: 5%;
+.table-hours__rows {
+  background-color: white;
+}
+
+.table-hours__columns_item,
+.new-hours__columns_item {
+  padding: 1%;
 }
 
 .table-hours__rows_item {
-  padding: 2%;
+  padding: 1%;
+}
+
+.new-hours {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  padding-bottom: 2%;
+}
+
+.new-hours__header {
+  text-align: left;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.new-hours__header_p {
+  margin-top: -2.5rem;
+  margin-left: 3.5rem;
+  font-size: 1.5rem;
+}
+
+.new-hours__columns, .new-hours__rows {
+  text-align: left;
+}
+
+.new-hours__header,
+.new-hours__columns {
+  background-color: #F693BC;
+  color: white;
+  font-weight: 600;
+}
+
+.cross-image {
+  width: 2.5rem;
+}
+
+.new-hours__data {
+  font-weight: 400;
+  border-bottom: 0.1px solid #ece9e9;
+  padding: 1%;
+  background-color: white;
+}
+
+.cities {
+  max-width: 100%;
+  text-align: center;
+}
+
+.cities > input[type="radio"] {
+  display: none;
+}
+
+.cities > input[type="radio"]:checked + label {
+  background-color: #F5D536;
+}
+
+.cities > div {
+  /* скрыть контент по умолчанию */
+  display: none;
+}
+
+/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked ~ #content-1,
+#tab-btn-2:checked ~ #content-2,
+#tab-btn-3:checked ~ #content-3,
+#tab-btn-4:checked ~ #content-4 {
+  display: block;
+}
+
+.cities > label {
+  display: inline-block;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #F2F2F5;
+  padding: 0.9rem 1.9rem;
+  font-size: 1.12rem;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.cities > label:first-of-type {
+  margin-left: 0;
 }
 
 .btn {
