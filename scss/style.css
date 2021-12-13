@@ -991,19 +991,19 @@ li {
   background: #2BABA0;
 }
 
-.btn_accentColor {
+.btn_accentcolor {
   background: #FEE474;
 }
 
-.btn_accentColor:hover {
+.btn_accentcolor:hover {
   background: #F5D536;
 }
 
-.btn_defaultcolor-accentColor {
+.btn_defaultcolor-accentcolor {
   background: #4DCDC4;
 }
 
-.btn_defaultcolor-accentColor:hover {
+.btn_defaultcolor-accentcolor:hover {
   background: #F5D536;
   color: #292F36;
 }

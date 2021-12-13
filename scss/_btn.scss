@@ -20,7 +20,7 @@
 
     }
 
-    &_accentColor {
+    &_accentcolor {
         background: $accentColor;
 
         &:hover {
@@ -28,7 +28,7 @@
         }
     }
 
-    &_defaultcolor-accentColor {
+    &_defaultcolor-accentcolor {
         background: $defaultColor;
 
         &:hover {
