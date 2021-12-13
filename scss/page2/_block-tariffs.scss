@@ -1,0 +1,35 @@
+.table-hours__header,
+.table-hours__columns {
+    background-color: $backgroundColor;
+    font-weight: 600;
+}
+
+.table-hours {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+    &__header {
+        text-align: left;
+    }
+
+    &__header_p {
+        margin-top: -2.5rem;
+        margin-left: 3rem;
+        font-size: 1.5rem;
+    }
+
+    &__columns,
+    &__rows {
+        text-align: left;
+    }
+}
+
+.table-hours__columns_item {
+    padding: 2%;
+    margin-left: 5%
+}
+
+.table-hours__rows_item {
+    padding: 2%;
+}
