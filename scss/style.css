@@ -1256,19 +1256,26 @@ li {
 }
 
 /*блок Санкт Петербург*/
-.full {
+.full,
+.part,
+.onetime,
+.byhours {
+  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  -ms-grid-rows: 50% 25% 25%;
-      grid-template-rows: 50% 25% 25%;
+  -ms-grid-rows: 50% 30% 30%;
+      grid-template-rows: 50% 30% 30%;
   background-color: white;
-  margin: 0 auto;
-  border: 1px solid black;
+  margin: 1.7% auto;
+  padding: 7% 0;
 }
 
-.full-header {
+.full-header,
+.part-header,
+.onetime-header,
+.byhours-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1282,21 +1289,29 @@ li {
           justify-content: start;
 }
 
-.full-header__img {
+.full-header__img,
+.part-header__img,
+.onetime-header__img,
+.byhours-header__img {
   width: 4rem;
 }
 
-.full-header__h {
+.full-header__h,
+.part-header__h,
+.onetime-header__h,
+.byhours-header__h {
   margin-top: 0.9rem;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
-.full-p1 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+.full-p1,
+.part-p1,
+.onetime-p1,
+.byhours-p1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
@@ -1305,21 +1320,78 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: 1.25rem;
+  margin: 0 1.5rem;
 }
 
-.full-p2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+.full-p1__price,
+.part-p1__price,
+.onetime-p1__price,
+.byhours-p1__price {
+  font-weight: 600;
+  font-size: 1.45rem;
+}
+
+.full-p2,
+.part-p2,
+.onetime-p2,
+.byhours-p2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 1.5rem;
   -ms-grid-row: 3;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: 3/1/4/3;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  font-size: 1.25rem;
+}
+
+.cards-tariffs {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: (50%)[2];
+      grid-template-rows: repeat(2, 50%);
+  grid-gap: 3%;
+}
+
+.full {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1/1/2/2;
+}
+
+.part {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1/2/2/3;
+}
+
+.onetime {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2/1/3/2;
+}
+
+.byhours {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2/2/3/3;
 }
 
 .block-diff {
