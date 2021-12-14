@@ -1101,8 +1101,8 @@ li {
   color: #4DCDC4;
 }
 
-.container {
-  background-color: black;
+.blockdif {
+  background-color: #4DCDC4;
 }
 
 .container__row {
@@ -1322,32 +1322,32 @@ li {
           justify-content: space-between;
 }
 
-.container {
+.block-diff {
   color: #292F36;
   background-color: #F2F2F5;
   height: 82vw;
 }
 
 @media (max-width: 1200px) {
-  .container {
+  .block-diff {
     height: 120vw;
   }
 }
 
 @media (max-width: 960px) {
-  .container {
+  .block-diff {
     height: 150vw;
   }
 }
 
 @media (max-width: 640px) {
-  .container {
+  .block-diff {
     height: 190vw;
   }
 }
 
 @media (max-width: 480px) {
-  .container {
+  .block-diff {
     height: 195vw;
   }
 }
