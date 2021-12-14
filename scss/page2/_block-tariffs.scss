@@ -167,22 +167,25 @@
 .full,
 .part,
 .onetime,
-.byhours {
+.byhours,
+.night {
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 30% 30%;
+    grid-template-rows: 50% 20% 30%;
     background-color: white;
-    margin: 1.7% auto;
-    padding: 7% 0;
-
+    margin: 1%;
+    padding: 1% 0;
 
 }
+
+
 
 .full-header,
 .part-header,
 .onetime-header,
-.byhours-header {
+.byhours-header,
+.night-header {
     display: flex;
     grid-area: 1/1/2/2;
     justify-content: start;
@@ -192,7 +195,7 @@
     }
 
     &__h {
-        margin-top: 0.9rem;
+        margin-top: 2.2rem;
         font-weight: 600;
         font-size: 1.4rem;
     }
@@ -202,7 +205,8 @@
 .full-p1,
 .part-p1,
 .onetime-p1,
-.byhours-p1 {
+.byhours-p1,
+.night-p1 {
     display: flex;
     grid-area: 2/1/3/3;
     justify-content: space-between;
@@ -218,7 +222,8 @@
 .full-p2,
 .part-p2,
 .onetime-p2,
-.byhours-p2 {
+.byhours-p2,
+.night-p2 {
     display: flex;
     justify-content: space-between;
     margin: 0 1.5rem;
@@ -230,8 +235,11 @@
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(2, 50%);
+    grid-template-rows: repeat(3, 50%);
     grid-gap: 3%;
+    background-color: $defaultColor;
+    height: auto;
+    padding-bottom: 30%;
 }
 
 .full {
@@ -249,4 +257,47 @@
 
 .byhours {
     grid-area: 2/2/3/3;
+}
+
+.night {
+    grid-area: 3/1/4/2;
+    background-color: #292f36;
+
+    &-header {
+        color: $accentColor;
+    }
+}
+
+.child {
+    grid-area: 3/2/4/3;
+}
+
+
+.night-p1,
+.night-p2 {
+    color: white;
+}
+
+.child {
+    border: 2px solid #ffe66d;
+    width: 100%;
+    margin: 1%;
+    padding: 1% 0;
+    text-align: left;
+
+
+}
+
+.child-header {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 450;
+}
+
+.child-p1 {
+    font-size: 1rem;
+    font-weight: 450;
+    margin: 1.5rem 1.5rem;
+    line-height: 1.7;
 }
