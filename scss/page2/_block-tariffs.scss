@@ -161,3 +161,45 @@
 .cities>label:first-of-type {
     margin-left: 0;
 }
+
+/*блок Санкт Петербург*/
+
+.full {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 25% 25%;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid black
+}
+
+.full-header {
+    display: flex;
+    grid-area: 1/1/2/2;
+    justify-content: start;
+
+    &__img {
+        width: 4rem;
+    }
+
+    &__h {
+        margin-top: 0.9rem;
+        font-weight: 600;
+        font-size:
+    }
+
+}
+
+.full-p1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-area: 2/1/3/3;
+    justify-content: space-between;
+}
+
+.full-p2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-area: 3/1/4/3;
+    justify-content: space-between;
+}
