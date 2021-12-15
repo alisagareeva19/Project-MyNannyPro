@@ -73,6 +73,7 @@
     padding: 1%;
 }
 
+/*таблица десктоп*/
 .new-hours {
     width: 100%;
     border-collapse: collapse;
@@ -117,7 +118,63 @@
     background-color: white;
 }
 
+/*таблица для планшетов*/
+.new-hours-tablet {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding-bottom: 2%;
 
+
+    &__header {
+        text-align: left;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+
+    &__header_p {
+        margin-top: -2.5rem;
+        margin-left: 3.5rem;
+        font-size: 1.5rem;
+    }
+
+    &__columns,
+    &__rows {
+        text-align: left;
+    }
+
+    @media screen and (min-width: $desktop) {}
+
+
+}
+
+.new-hours-tablet__header {
+    background-color: $baseColor;
+    color: white;
+    font-weight: 600;
+}
+
+.cross-image {
+    width: 2.5rem;
+}
+
+.new-hours-tablet__data,
+.new-hours-tablet__columns {
+    font-weight: 400;
+    border-bottom: 0.1px solid rgb(236, 233, 233);
+    padding: 1%;
+    background-color: white;
+    color: black;
+}
+
+.new-hours-tablet__columns {
+    font-weight: 600;
+    color: $baseColor
+}
+
+
+/*вкладки*/
 .cities {
     max-width: 100%;
     text-align: center;
