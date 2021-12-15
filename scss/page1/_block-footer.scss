@@ -1,11 +1,16 @@
+.container {
+    background-color: $backgroundColor;
+}
+
 .container__row {
     width: 80%;
     margin: auto;
 }
 
 .block-footer {
-    display: grid;
+    background-color: $backgroundColor;
 }
+
 
 #block-footer__client-offer {
     display: none;
