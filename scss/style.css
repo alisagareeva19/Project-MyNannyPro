@@ -962,8 +962,8 @@
 @media (max-width: 960px) {
   .single-visits,
   .regular-visits {
-    -ms-grid-rows: 15% 10% 70%;
-        grid-template-rows: 15% 10% 70%;
+    -ms-grid-rows: 12% 10% 75%;
+        grid-template-rows: 12% 10% 75%;
   }
 }
 
@@ -972,8 +972,8 @@
   .regular-visits {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 15% 10% 70%;
-        grid-template-rows: 15% 10% 70%;
+    -ms-grid-rows: 10% 10% 75%;
+        grid-template-rows: 10% 10% 75%;
     grid-gap: 10%;
   }
 }
@@ -983,8 +983,8 @@
   .regular-visits {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 10% 8% 80%;
-        grid-template-rows: 10% 8% 80%;
+    -ms-grid-rows: 9% 8% 80%;
+        grid-template-rows: 9% 8% 80%;
     grid-gap: 10%;
   }
 }
