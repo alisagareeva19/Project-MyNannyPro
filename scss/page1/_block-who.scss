@@ -458,59 +458,88 @@
 
 
 .block-whowe__image_background {
-    animation: ground 20s linear infinite;
-    animation-delay: 1ms;
+    animation: ground 25s linear infinite;
+
 
 
     @keyframes ground {
         0% {
-            background: $accentColor;
+            background-color: $accentColor;
+            opacity: 0;
+
+        }
+
+
+        1% {
+            background-color: $accentColor;
+            opacity: 0;
+
+        }
+
+        3% {
+            background-color: $accentColor;
+            opacity: 1;
 
         }
 
         30% {
-            background: $accentColor;
+            background-color: $accentColor;
+            opacity: 1;
+        }
+
+        32% {
+            background-color: $accentColor;
+            opacity: 0;
+
+
         }
 
         34% {
-
-            opacity: 0.9;
-
-        }
-
-        35% {
-            background: $lightColor;
+            background-color: $baseColor;
+            opacity: 0;
         }
 
         36% {
-            background: $baseColor;
+            background-color: $baseColor;
+            opacity: 1;
+        }
+
+        64% {
+            background-color: $baseColor;
+            opacity: 1;
         }
 
         66% {
-            background: $baseColor;
+            background-color: $baseColor;
+            opacity: 0;
+
+        }
+
+        68% {
+            background-color: $defaultColor;
+            opacity: 0;
         }
 
         70% {
-            opacity: 0.9;
+            background-color: $defaultColor;
+            opacity: 1;
         }
 
-        71% {
-            background: $lightColor;
-        }
-
-        72% {
-            background: $defaultColor;
+        97% {
+            background-color: $defaultColor;
+            opacity: 1;
         }
 
         99% {
-            opacity: 0.9;
+            background-color: $defaultColor;
+            opacity: 0;
+
         }
 
         100% {
-            background: $lightColor;
+            background-color: $accentColor;
+            opacity: 0;
+
         }
-
-
     }
-
 }
