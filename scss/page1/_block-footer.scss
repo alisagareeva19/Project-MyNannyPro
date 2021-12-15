@@ -16,7 +16,7 @@
     height: 100%;
 }
 
-#block-footer__pop-up-window {
+#block-footer__popup-window {
     width: 300px;
     height: 50px;
     text-align: center;
@@ -34,4 +34,22 @@
 
 #block-footer__client-offer:target {
     display: block;
+}
+
+
+.block-footer__bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.block-footer__privacy {
+    grid-column: 1/2;
+}
+
+.block-footer__year {
+    grid-column: 2/3;
+}
+
+.block-footer__dev {
+    grid-column: 3/4;
 }
