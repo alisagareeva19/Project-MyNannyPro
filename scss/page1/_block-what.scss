@@ -18,6 +18,7 @@
         grid-template-columns: 50% 50%;
         grid-template-rows: 20% 5% 80%;
 
+
     }
 
     @media screen and (max-width: $mobile) {
@@ -113,19 +114,19 @@
 
 
     @media (max-width: $tablet) {
-        grid-template-rows: 15% 10% 70%;
+        grid-template-rows: 12% 10% 75%;
     }
 
     @media screen and (max-width: $mobile) {
         grid-template-columns: 1fr;
-        grid-template-rows: 15% 10% 70%;
+        grid-template-rows: 10% 10% 75%;
         grid-gap: 10%;
 
     }
 
     @media (max-width: $smallMobile) {
         grid-template-columns: 1fr;
-        grid-template-rows: 10% 8% 80%;
+        grid-template-rows: 9% 8% 80%;
         grid-gap: 10%;
     }
 
