@@ -2061,6 +2061,8 @@ li {
 
 .btn_defaultcolor:hover {
   background: #2BABA0;
+  -webkit-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
 }
 
 .btn_accentСolor {
@@ -2069,6 +2071,8 @@ li {
 
 .btn_accentСolor:hover {
   background: #F5D536;
+  -webkit-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
 }
 
 .btn_defaultcolor-accentСolor {
@@ -2078,5 +2082,9 @@ li {
 .btn_defaultcolor-accentСolor:hover {
   background: #F5D536;
   color: #292F36;
+  -webkit-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
 }
 /*# sourceMappingURL=style.css.map */

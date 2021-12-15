@@ -16,6 +16,7 @@
 
         &:hover {
             background: $defaultColor_hover;
+            transition: background-color 0.4s ease;
         }
 
     }
@@ -25,6 +26,7 @@
 
         &:hover {
             background: $accentColor_hover;
+            transition: background-color 0.4s ease;
         }
     }
 
@@ -34,6 +36,9 @@
         &:hover {
             background: $accentColor_hover;
             color: $darkColor;
+            transition: background-color 0.4s ease;
+            transition: color 0.4s ease;
         }
 
     }
+}
