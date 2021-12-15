@@ -592,81 +592,125 @@
 
 /*анимация блока с картинками можно будет удалить*/
 .block-whowe__image_background {
-  -webkit-animation: ground 20s linear infinite;
-          animation: ground 20s linear infinite;
-  -webkit-animation-delay: 1ms;
-          animation-delay: 1ms;
+  -webkit-animation: ground 25s linear infinite;
+          animation: ground 25s linear infinite;
 }
 
 @-webkit-keyframes ground {
   0% {
-    background: #FEE474;
+    background-color: #FEE474;
+    opacity: 0;
+  }
+  1% {
+    background-color: #FEE474;
+    opacity: 0;
+  }
+  3% {
+    background-color: #FEE474;
+    opacity: 1;
   }
   30% {
-    background: #FEE474;
+    background-color: #FEE474;
+    opacity: 1;
+  }
+  32% {
+    background-color: #FEE474;
+    opacity: 0;
   }
   34% {
-    opacity: 0.9;
-  }
-  35% {
-    background: #FFFFFF;
+    background-color: #F693BC;
+    opacity: 0;
   }
   36% {
-    background: #F693BC;
+    background-color: #F693BC;
+    opacity: 1;
+  }
+  64% {
+    background-color: #F693BC;
+    opacity: 1;
   }
   66% {
-    background: #F693BC;
+    background-color: #F693BC;
+    opacity: 0;
+  }
+  68% {
+    background-color: #4DCDC4;
+    opacity: 0;
   }
   70% {
-    opacity: 0.9;
+    background-color: #4DCDC4;
+    opacity: 1;
   }
-  71% {
-    background: #FFFFFF;
-  }
-  72% {
-    background: #4DCDC4;
+  97% {
+    background-color: #4DCDC4;
+    opacity: 1;
   }
   99% {
-    opacity: 0.9;
+    background-color: #4DCDC4;
+    opacity: 0;
   }
   100% {
-    background: #FFFFFF;
+    background-color: #FEE474;
+    opacity: 0;
   }
 }
 
 @keyframes ground {
   0% {
-    background: #FEE474;
+    background-color: #FEE474;
+    opacity: 0;
+  }
+  1% {
+    background-color: #FEE474;
+    opacity: 0;
+  }
+  3% {
+    background-color: #FEE474;
+    opacity: 1;
   }
   30% {
-    background: #FEE474;
+    background-color: #FEE474;
+    opacity: 1;
+  }
+  32% {
+    background-color: #FEE474;
+    opacity: 0;
   }
   34% {
-    opacity: 0.9;
-  }
-  35% {
-    background: #FFFFFF;
+    background-color: #F693BC;
+    opacity: 0;
   }
   36% {
-    background: #F693BC;
+    background-color: #F693BC;
+    opacity: 1;
+  }
+  64% {
+    background-color: #F693BC;
+    opacity: 1;
   }
   66% {
-    background: #F693BC;
+    background-color: #F693BC;
+    opacity: 0;
+  }
+  68% {
+    background-color: #4DCDC4;
+    opacity: 0;
   }
   70% {
-    opacity: 0.9;
+    background-color: #4DCDC4;
+    opacity: 1;
   }
-  71% {
-    background: #FFFFFF;
-  }
-  72% {
-    background: #4DCDC4;
+  97% {
+    background-color: #4DCDC4;
+    opacity: 1;
   }
   99% {
-    opacity: 0.9;
+    background-color: #4DCDC4;
+    opacity: 0;
   }
   100% {
-    background: #FFFFFF;
+    background-color: #FEE474;
+    opacity: 0;
   }
 }
 
