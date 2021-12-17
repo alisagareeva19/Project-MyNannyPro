@@ -1377,12 +1377,95 @@ li {
   background-color: white;
 }
 
+@media screen and (max-width: 960px) {
+  .table-hours {
+    display: none;
+  }
+}
+
 .table-hours__columns_item,
 .new-hours__columns_item {
   padding: 1%;
 }
 
 .table-hours__rows_item {
+  padding: 1%;
+}
+
+/*таблица планшет*/
+.table-hours-tablet__header,
+.table-hours-tablet__columns {
+  background-color: #F2F2F5;
+  font-weight: 600;
+}
+
+.table-hours-tablet {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-bottom: 2rem;
+}
+
+.table-hours-tablet__header {
+  text-align: left;
+}
+
+.table-hours-tablet__header_p {
+  margin-top: -2.5rem;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+  .table-hours-tablet__header_p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .table-hours-tablet__header_p {
+    font-size: 1rem;
+  }
+}
+
+.table-hours-tablet__columns, .table-hours-tablet__rows {
+  text-align: left;
+}
+
+.table-hours-tablet__rows {
+  background-color: white;
+}
+
+@media screen and (min-width: 1200px) {
+  .table-hours-tablet {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .table-hours-tablet {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .table-hours-tablet {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .table-hours-tablet {
+    font-size: 0.8rem;
+  }
+}
+
+.table-hours-tablet__columns_item,
+.new-hours-tablet__columns_item {
+  padding: 2%;
+}
+
+.table-hours-tablet__rows_item {
   padding: 1%;
 }
 
@@ -1408,6 +1491,12 @@ li {
 
 .new-hours__columns, .new-hours__rows {
   text-align: left;
+}
+
+@media screen and (max-width: 640px), (max-width: 960px) {
+  .new-hours {
+    display: none;
+  }
 }
 
 .new-hours__header,
@@ -1453,6 +1542,24 @@ li {
   text-align: left;
 }
 
+@media screen and (min-width: 1200px) {
+  .new-hours-tablet {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 960px), (max-width: 640px) {
+  .new-hours-tablet {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .new-hours-tablet {
+    font-size: 0.8rem;
+  }
+}
+
 .new-hours-tablet__header {
   background-color: #F693BC;
   color: white;
@@ -1463,11 +1570,16 @@ li {
   width: 2.5rem;
 }
 
+@media screen and (max-width: 960px) {
+  .cross-image {
+    width: 2rem;
+  }
+}
+
 .new-hours-tablet__data,
 .new-hours-tablet__columns {
   font-weight: 400;
-  border-bottom: 0.1px solid #ece9e9;
-  padding: 1%;
+  padding: 2%;
   background-color: white;
   color: black;
 }
@@ -1475,6 +1587,85 @@ li {
 .new-hours-tablet__columns {
   font-weight: 600;
   color: #F693BC;
+  padding-right: 3%;
+}
+
+/*таблица для мобильной*/
+.new-hours-mobile {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  padding-bottom: 2%;
+}
+
+.new-hours-mobile__header {
+  text-align: left;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+.new-hours-mobile__header_p {
+  margin-top: -2.5rem;
+  margin-left: 3.5rem;
+  font-size: 1.5rem;
+}
+
+.new-hours-mobile__columns, .new-hours-mobile__rows {
+  text-align: left;
+}
+
+@media screen and (min-width: 640px) {
+  .new-hours-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .new-hours-mobile {
+    font-size: 0.8rem;
+  }
+}
+
+.new-hours-mobile__header {
+  background-color: #F693BC;
+  color: white;
+  font-weight: 600;
+}
+
+.cross-image {
+  width: 2.5rem;
+}
+
+@media screen and (max-width: 960px) {
+  .cross-image {
+    width: 2rem;
+  }
+}
+
+.cross-image {
+  width: 2.5rem;
+}
+
+@media screen and (max-width: 640px) {
+  .cross-image {
+    width: 2rem;
+  }
+}
+
+.new-hours-mobile__data,
+.new-hours-mobile__columns {
+  font-weight: 450;
+  padding: 2%;
+  background-color: white;
+  color: black;
+  border-bottom: 0.1px solid #ece9e9;
+}
+
+.new-hours-mobile__columns {
+  font-weight: 600;
+  color: #F693BC;
+  padding-right: 3%;
 }
 
 /*вкладки*/
