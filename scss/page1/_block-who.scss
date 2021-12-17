@@ -380,7 +380,7 @@
 
     }
 
-    @media (min-width:$smobile) and (max-width:$mobile) {
+    @media (min-width:$smallMobile) and (max-width:$mobile) {
         width: 50vw;
         height: 330px;
         position: relative;
@@ -389,7 +389,7 @@
 
     }
 
-    @media (max-width:$smobile) {
+    @media (max-width:$smallMobile) {
         width: 50vw;
         height: 200px;
         position: relative;
