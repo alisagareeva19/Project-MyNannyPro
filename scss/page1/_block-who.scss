@@ -380,7 +380,7 @@
 
     }
 
-    @media (min-width:$smobile) and (max-width:$mobile) {
+    @media (min-width:$smallMobile) and (max-width:$mobile) {
         width: 50vw;
         height: 330px;
         position: relative;
@@ -389,7 +389,7 @@
 
     }
 
-    @media (max-width:$smobile) {
+    @media (max-width:$smallMobile) {
         width: 50vw;
         height: 200px;
         position: relative;
@@ -418,27 +418,28 @@
     position: absolute;
     top: 10%;
     right: 40%;
-@media (max-width:$desktop) {
-    max-width: 100%;
+
+    @media (max-width:$desktop) {
+        max-width: 100%;
 
 
-    height: 440px;
-    position: relative;
+        height: 440px;
+        position: relative;
 
-    top: 5%;
-    right: 10%;
+        top: 5%;
+        right: 10%;
 
-}
+    }
 
-@media (max-width:$mobile) {
-    max-width: 100%;
+    @media (max-width:$mobile) {
+        max-width: 100%;
 
 
-    height: 330px;
-    position: relative;
+        height: 330px;
+        position: relative;
 
-    top: 5%;
-    right: 10%;
+        top: 5%;
+        right: 10%;
 
     }
 
