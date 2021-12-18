@@ -2734,6 +2734,31 @@ li {
   }
 }
 
+.team-member__image img#chelny_4,
+.team-member__image img#chelny_5,
+.team-member__image img#moscow_2,
+.team-member__image img#moscow_5,
+.team-member__image img#moscow_6,
+.team-member__image img#moscow_8,
+.team-member__image img#moscow_9,
+.team-member__image img#moscow_10,
+.team-member__image img#moscow_11,
+.team-member__image img#moscow_13,
+.team-member__image img#moscow_14,
+.team-member__image img#moscow_15,
+.team-member__image img#moscow_16,
+.team-member__image img#moscow_18,
+.team-member__image img#moscow_19,
+.team-member__image img#moscow_20,
+.team-member__image img#moscow_21,
+.team-member__image img#moscow_23,
+.team-member__image img#moscow_24,
+.team-member__image img#moscow_25,
+.team-member__image img#moscow_26,
+.team-member__image img#moscow_27 {
+  margin-left: -2vw;
+}
+
 .team-member__button {
   display: inline-block;
   -webkit-box-sizing: border-box;
