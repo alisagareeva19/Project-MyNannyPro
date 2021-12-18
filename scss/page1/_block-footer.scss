@@ -1,4 +1,4 @@
-.container {
+.block-footer {
     background-color: $backgroundColor;
     padding-top: 6rem;
     padding-bottom: 4rem;
@@ -7,16 +7,11 @@
         padding-top: 4rem;
         padding-bottom: 3rem;
     }
-
 }
 
 .container__row {
     width: 80%;
     margin: auto;
-}
-
-.block-footer {
-    background-color: $backgroundColor;
 }
 
 .block-footer__items {

@@ -33,14 +33,14 @@
   }
 }
 
-.container {
+.block-footer {
   background-color: #F2F2F5;
   padding-top: 6rem;
   padding-bottom: 4rem;
 }
 
 @media (max-width: 640px) {
-  .container {
+  .block-footer {
     padding-top: 4rem;
     padding-bottom: 3rem;
   }
@@ -49,10 +49,6 @@
 .container__row {
   width: 80%;
   margin: auto;
-}
-
-.block-footer {
-  background-color: #F2F2F5;
 }
 
 .block-footer__items {
