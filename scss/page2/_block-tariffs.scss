@@ -417,6 +417,10 @@
 
     &__img {
         width: 4rem;
+
+        @media screen and (max-width: $tablet) {
+            width: 2rem;
+        }
     }
 
     &__h {
