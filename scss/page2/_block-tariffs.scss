@@ -151,7 +151,7 @@
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
-    padding-bottom: 2%;
+    padding-bottom: 20px;
 
 
     &__header {
@@ -193,6 +193,10 @@
     border-bottom: 0.1px solid rgb(236, 233, 233);
     padding: 1%;
     background-color: white;
+}
+
+.new-hours-tables {
+    padding-bottom: 5%;
 }
 
 /*таблица для планшетов*/
@@ -412,14 +416,18 @@
 .byhours-header,
 .night-header {
     display: flex;
-    grid-area: 1/1/2/2;
+    grid-area: 1/1/2/3;
     justify-content: start;
 
     &__img {
         width: 4rem;
 
         @media screen and (max-width: $tablet) {
-            width: 2rem;
+            width: 3rem;
+        }
+
+        @media screen and (max-width: $mobile) {
+            width: 2.5rem;
         }
     }
 
@@ -427,6 +435,26 @@
         margin-top: 2.2rem;
         font-weight: 600;
         font-size: 1.4rem;
+
+        @media screen and (max-width: $tablet) {
+            margin-top: 1rem;
+            font-weight: 600;
+            font-size: 1.2rem;
+
+        }
+
+        @media screen and (max-width: $mobile) {
+            margin-top: 1rem;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        @media screen and (max-width: $smallMobile) {
+            margin-top: 0.9rem;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
     }
 
 }
@@ -445,6 +473,33 @@
     &__price {
         font-weight: 600;
         font-size: 1.45rem;
+
+        @media screen and (max-width: $tablet) {
+            font-size: 1.2rem;
+
+        }
+
+        @media screen and (max-width: $mobile) {
+            font-size: 1rem;
+        }
+
+
+        @media screen and (max-width: $smallMobile) {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media screen and (max-width: $tablet) {
+        font-size: 1.1rem;
+
+    }
+
+    @media screen and (max-width: $mobile) {
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: $smallMobile) {
+        font-size: 0.9rem;
     }
 }
 
@@ -458,6 +513,19 @@
     margin: 0 1.5rem;
     grid-area: 3/1/4/3;
     font-size: 1.25rem;
+
+    @media screen and (max-width: $tablet) {
+        font-size: 1.1rem;
+
+    }
+
+    @media screen and (max-width: $mobile) {
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: $smallMobile) {
+        font-size: 0.9rem;
+    }
 }
 
 .cards-tariffs {
@@ -548,6 +616,22 @@
     margin-top: 1.5rem;
     font-size: 1rem;
     font-weight: 450;
+
+    @media screen and (max-width: $tablet) {
+        margin-top: 0.5rem;
+        font-size: 0.95rem;
+
+    }
+
+    @media screen and (max-width: $mobile) {
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    @media screen and (max-width: $smallMobile) {
+        margin-top: 0.4rem;
+        font-size: 0.75rem;
+    }
 }
 
 .child-p1 {
@@ -555,4 +639,24 @@
     font-weight: 450;
     margin: 1.5rem 1.5rem;
     line-height: 1.7;
+
+
+    @media screen and (max-width: $tablet) {
+        margin: 0.5rem 1rem;
+        font-size: 0.95rem;
+        padding-bottom: 1.5rem;
+
+    }
+
+    @media screen and (max-width: $mobile) {
+        margin: 0.5rem 0.7rem;
+        font-size: 0.8rem;
+        padding-bottom: 10rem;
+    }
+
+    @media screen and (max-width: $smallMobile) {
+        margin: 0.4rem 0.7rem;
+        font-size: 0.75rem;
+        padding-bottom: 15rem;
+    }
 }

@@ -1527,7 +1527,7 @@ li {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
-  padding-bottom: 2%;
+  padding-bottom: 20px;
 }
 
 .new-hours__header {
@@ -1568,6 +1568,10 @@ li {
   border-bottom: 0.1px solid #ece9e9;
   padding: 1%;
   background-color: white;
+}
+
+.new-hours-tables {
+  padding-bottom: 5%;
 }
 
 /*таблица для планшетов*/
@@ -1798,8 +1802,8 @@ li {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 1/1/2/2;
+  -ms-grid-column-span: 2;
+  grid-area: 1/1/2/3;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
@@ -1819,7 +1823,17 @@ li {
   .onetime-header__img,
   .byhours-header__img,
   .night-header__img {
-    width: 2rem;
+    width: 3rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .full-header__img,
+  .part-header__img,
+  .onetime-header__img,
+  .byhours-header__img,
+  .night-header__img {
+    width: 2.5rem;
   }
 }
 
@@ -1831,6 +1845,42 @@ li {
   margin-top: 2.2rem;
   font-weight: 600;
   font-size: 1.4rem;
+}
+
+@media screen and (max-width: 960px) {
+  .full-header__h,
+  .part-header__h,
+  .onetime-header__h,
+  .byhours-header__h,
+  .night-header__h {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .full-header__h,
+  .part-header__h,
+  .onetime-header__h,
+  .byhours-header__h,
+  .night-header__h {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .full-header__h,
+  .part-header__h,
+  .onetime-header__h,
+  .byhours-header__h,
+  .night-header__h {
+    margin-top: 0.9rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
 }
 
 .full-p1,
@@ -1862,6 +1912,66 @@ li {
   font-size: 1.45rem;
 }
 
+@media screen and (max-width: 960px) {
+  .full-p1__price,
+  .part-p1__price,
+  .onetime-p1__price,
+  .byhours-p1__price,
+  .night-p1__price {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .full-p1__price,
+  .part-p1__price,
+  .onetime-p1__price,
+  .byhours-p1__price,
+  .night-p1__price {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .full-p1__price,
+  .part-p1__price,
+  .onetime-p1__price,
+  .byhours-p1__price,
+  .night-p1__price {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .full-p1,
+  .part-p1,
+  .onetime-p1,
+  .byhours-p1,
+  .night-p1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .full-p1,
+  .part-p1,
+  .onetime-p1,
+  .byhours-p1,
+  .night-p1 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .full-p1,
+  .part-p1,
+  .onetime-p1,
+  .byhours-p1,
+  .night-p1 {
+    font-size: 0.9rem;
+  }
+}
+
 .full-p2,
 .part-p2,
 .onetime-p2,
@@ -1880,6 +1990,36 @@ li {
   -ms-grid-column-span: 2;
   grid-area: 3/1/4/3;
   font-size: 1.25rem;
+}
+
+@media screen and (max-width: 960px) {
+  .full-p2,
+  .part-p2,
+  .onetime-p2,
+  .byhours-p2,
+  .night-p2 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .full-p2,
+  .part-p2,
+  .onetime-p2,
+  .byhours-p2,
+  .night-p2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .full-p2,
+  .part-p2,
+  .onetime-p2,
+  .byhours-p2,
+  .night-p2 {
+    font-size: 0.9rem;
+  }
 }
 
 .cards-tariffs {
@@ -2028,11 +2168,56 @@ li {
   font-weight: 450;
 }
 
+@media screen and (max-width: 960px) {
+  .child-header {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .child-header {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .child-header {
+    margin-top: 0.4rem;
+    font-size: 0.75rem;
+  }
+}
+
 .child-p1 {
   font-size: 1rem;
   font-weight: 450;
   margin: 1.5rem 1.5rem;
   line-height: 1.7;
+}
+
+@media screen and (max-width: 960px) {
+  .child-p1 {
+    margin: 0.5rem 1rem;
+    font-size: 0.95rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .child-p1 {
+    margin: 0.5rem 0.7rem;
+    font-size: 0.8rem;
+    padding-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .child-p1 {
+    margin: 0.4rem 0.7rem;
+    font-size: 0.75rem;
+    padding-bottom: 15rem;
+  }
 }
 
 .block-diff {
