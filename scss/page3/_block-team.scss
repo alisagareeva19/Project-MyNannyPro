@@ -95,10 +95,6 @@
     position: relative;
 }
 
-.zagruska-proizvod-container2 {
-    height: calc(auto - 50vw);
-}
-
 .zagruska-proizvod-container ul,
 .zagruska-proizvod-container2 ul {
     list-style-type: none;
@@ -130,14 +126,12 @@
     }
 
     @media (max-width: $mobile) {
-        margin-bottom: 17vw;
         width: 33vw;
         height: 50vw;
         margin-bottom: 8rem;
     }
 
     @media (max-width: $smallMobile) {
-        margin-bottom: 40rem;
         width: 60vw;
         height: 65vw;
         margin: 3rem 0 2rem;
@@ -149,6 +143,7 @@
     max-height: 0;
     opacity: 0;
     transition: 0.1s ease-in;
+    overflow: hidden;
 }
 
 .zagruska-proizvod-container .zagruska-proizvod-btn,
@@ -164,10 +159,7 @@
     text-decoration: none;
     text-align: center;
     padding: 1.1rem 4rem;
-
-    @media (max-width: $tablet) {}
-
-    @media (max-width: $mobile) {}
+    margin-bottom: 1rem;
 
     @media (max-width: $smallMobile) {
         padding: 1.1rem 0.5rem;
