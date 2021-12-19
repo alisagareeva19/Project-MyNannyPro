@@ -1068,10 +1068,10 @@
 
 .block-whowe__image {
   width: 30vw;
-  height: 90vh;
+  height: 100%;
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 0;
 }
 
 @media (min-width: 640px) and (max-width: 1200px) {
@@ -1113,6 +1113,7 @@
 
 .block-whowe__img1 {
   max-width: 90%;
+  max-height: 90%;
   position: absolute;
   top: 10%;
   right: 40%;
@@ -1324,6 +1325,11 @@
     background-color: #FEE474;
     opacity: 0;
   }
+}
+
+.block-whowe_wrapper {
+  position: relative;
+  margin-bottom: 7rem;
 }
 
 .container {
