@@ -64,7 +64,7 @@
     </header>
 <div class="container blockdif">
     <div class="container__row">
-        <div class="block-tariffs">
+        <div class="block-tariffs" id="tariffs">
             <div class="block-tariffs__header">Тарифы</div>
             <div class="block-tariffs__p">Стоимость часа зависит от города и количества часов в неделю.
             </div>
@@ -883,29 +883,87 @@
 </div>
 <div class="container">
     <div class="block-conditions" id="conditions">
-        <div class="block-conditions__background_color">
+        <div class="block-conditions__background_color ">
         <div class="container__row">
             <h2 class="block-conditions__h2">Правила оформления, отмены и оплаты визитов</h2>
-            <h4  class="block-conditions__h4">Планирование визитов</h4>
+            <h4  class="block-conditions__h4 block-conditions__text_darkColor ">Планирование визитов</h4>
             <ul class="block-conditions__list">
-                <li class="block-conditions__list-item">График визитов согласовывается с координатором Сервиса.</li>
-                <li class="block-conditions__list-item">Первый визит и знакомство с няней проходит бесплатно, если время визита не превышает 4 часов. При большем количестве времени такой визит няни считается рабочим днем и оплачивается по тарифу, рассчитанному из общего количества часов в семье за неделю.</li>
-                <li class="block-conditions__list-item">График визитов нужно планировать на неделю вперед, до конца текущей недели. Это позволяет нам заранее рассчитывать занятость нянь и находить свободных нянь на замены, срочные дополнительные или разовые визиты.</li>
+                <li class="block-conditions__list-item block-conditions__indent-large   .block-conditions__text_darkColor ">График визитов согласовывается с координатором Сервиса.</li>
+                <li class="block-conditions__list-item block-conditions__indent-large   .block-conditions__text_darkColor ">Первый визит и знакомство с няней проходит бесплатно, если время визита не превышает 4 часов. При большем количестве времени такой визит няни считается рабочим днем и оплачивается по тарифу, рассчитанному из общего количества часов в семье за неделю.</li>
+                <li class="block-conditions__list-item block-conditions__indent-large   .block-conditions__text_darkColor ">График визитов нужно планировать на неделю вперед, до конца текущей недели. Это позволяет нам заранее рассчитывать занятость нянь и находить свободных нянь на замены, срочные дополнительные или разовые визиты.</li>
             </ul>
-            <h2 class="block-conditions__h4">Планирование поездки с няней</h2>
-            <p class="block-conditions__p">Сопровождение в поездке, даже вы берете няню с собой в отпуск, — это командировка для няни. Работать в новых условиях и незнакомой обстановке может быть даже сложнее. </p>
-            <p class="block-conditions__p"> Родители берут на себя оплату билетов, проживания, питания, медицинской страховки (если необходима), ПЦР-тестов (если необходимы), визы (если необходима) для няни.  </p>
-            <p class="block-conditions__p"> Перед поездкой родители, няня и координатор обсуждают и фиксируют условия работы няни в поездке, а именно:  </p>
-            <ul class="block-conditions__list">
-                <li class="block-conditions__list-item">график работы, свободное время или выходные </li>
-                <li class="block-conditions__list-item">проживание (отдельно или с ребенком) </li>
-                <li class="block-conditions__list-item">питание с семьей или отдельно (в отеле, кафе или нужно покупать продукты и готовить самостоятельно) </li>
-                <li class="block-conditions__list-item">программа поездки (куда планируете сходить с няней, какая одежда будет уместна и т. п.)  </li>
+            <h4 class="block-conditions__h4 block-conditions__text_darkColor ">Планирование поездки с няней</h4>
+            <p class="block-conditions_text block-conditions__text_darkColor   block-conditions__indent-large">Сопровождение в поездке, даже вы берете няню с собой в отпуск, — это командировка для няни. Работать в новых условиях и незнакомой обстановке может быть даже сложнее. </p>
+            <p class="block-conditions_text block-conditions__text_darkColor  block-conditions__indent-large"> Родители берут на себя оплату билетов, проживания, питания, медицинской страховки (если необходима), ПЦР-тестов (если необходимы), визы (если необходима) для няни.  </p>
+            <p class="block-conditions_text block-conditions__text_darkColor  block-conditions__indent-small"> Перед поездкой родители, няня и координатор обсуждают и фиксируют условия работы няни в поездке, а именно:  </p>
+            <ul class="block-conditions__list block-conditions__indent-large">
+                <li class="block-conditions__list-item block-conditions__indent-small block-conditions__text_darkColor ">график работы, свободное время или выходные </li>
+                <li class="block-conditions__list-item block-conditions__indent-small block-conditions__text_darkColor ">проживание (отдельно или с ребенком) </li>
+                <li class="block-conditions__list-item block-conditions__indent-small block-conditions__text_darkColor ">питание с семьей или отдельно (в отеле, кафе или нужно покупать продукты и готовить самостоятельно) </li>
+                <li class="block-conditions__list-item block-conditions__indent-small block-conditions__text_darkColor ">программа поездки (куда планируете сходить с няней, какая одежда будет уместна и т. п.)  </li>
             </ul>
-
+            <p class="block-conditions_text block-conditions__text_darkColor  block-conditions__indent-large">Если вы ищете няню для сопровождения в поездке, мы рекомендуем познакомиться с няней заранее. Вы можете воспользоваться бесплатным визитом-знакомством до 4 часов и пригласить няню на один-два дня, чтобы убедиться, что вам будет комфортно в поездке. </p>
            
         </div>
     </div>
+   <div class="block-conditions__background_defcolor">
+    <div class="container__row">
+    <h4 class="block-conditions__h4 block-conditions__text_lightColor ">Отмена и изменение длительности визитов</h4>
+    <ul class="block-conditions__list block-conditions__indent-large">
+        <li class="block-conditions__list-item block-conditions__indent-large block-conditions__text_lightColor ">Бесплатная отмена визитов осуществляется не позднее, чем за 2 дня до запланированной даты.</li>
+        <li class="block-conditions__list-item block-conditions__indent-large block-conditions__text_lightColor ">Если отмена происходит за один день до визита, то вы оплачиваете половину стоимости рабочего времени няни, если день в день — то полную стоимость запланированного рабочего времени няни в семье. </li>
+        <li class="block-conditions__list-item block-conditions__indent-large block-conditions__text_lightColor ">Сокращать время визита бесплатно, так же как и отменять его, можно не позднее, чем за 2 дня до запланированной даты. Накануне и в день визита сокращать время визита нельзя. </li>
+        <li class="block-conditions__list-item block-conditions__indent-large block-conditions__text_lightColor ">Если отмена визита происходит накануне по вине Сервиса и у Сервиса нет свободной няни на замену, то за следующий равнозначный визит вы платите половину стоимости. Если отмена происходит в день визита, то Сервис предоставит один бесплатный визит с запланированным количеством часов в другой день.  </li>
+        <li class="block-conditions__list-item block-conditions__indent-large block-conditions__text_lightColor ">Няни сервиса работают на условиях взаимозаменяемости. То есть за одним ребенком закрепляется несколько нянь для замещения друг друга на случай отсутствия.   </li>
+       
+    </ul>
+    <div class="block-conditions__table-border">
+        <div class="block-conditions__table-indent">
+            <p class="block-conditions_text block-conditions__text_lightColor  block-conditions__indent-large">Мы создали правила отмены визитов такими, чтобы использование сервиса было комфортным как для родителей, так и для нянь. </p>
+            <p class="block-conditions_text block-conditions__text_lightColor  block-conditions__indent-large"> Если няня отменяет визит за день или день в день, мы стараемся найти замену, чтобы родителям не приходилось экстренно менять свои планы. К сожалению, иногда мы не можем найти свободную няню, и тогда компенсируем возникшие неудобства визитом с запланированным ранее количеством часов в другой день за счет сервиса.  </p>
+            <p class="block-conditions_text block-conditions__text_lightColor  block-conditions__indent-large"> В случае отмены визита со стороны родителей за день или день в день у няни нет возможности взять другой визит на это время, и она теряет возможность заработать. </p>
+            
+         </div>
+
+   </div>
+   </div>
+    </div>
+    <div class="block-conditions__background_color ">
+        <div class="container__row">
+            <h4  class="block-conditions__h4 block-conditions__text_darkColor ">Оплата</h4>
+            <ul class="block-conditions__list block-conditions__list_indent-large">
+                <li class="block-conditions__list-item block-conditions__indent-large  block-conditions__text_darkColor ">Стоимость часа рассчитывается в зависимости от количества часов в неделю, чем больше часов, тем ниже стоимость. С тарифами вы можете ознакомиться <a href="#tariffs" class="block-conditions__link">здесь</a>  </li>
+                <li class="block-conditions__list-item block-conditions__indent-large block-conditions__text_darkColor ">Оплата услуг няни осуществляется через личный кабинет в конце каждой недели по фактическому количеству отработанных часов.</li>
+                <li class="block-conditions__list-item block-conditions__indent-large  block-conditions__text_darkColor ">15 минут сверх согласованного времени бесплатны. С 16 минуты время работы няни округляется до получаса, с 31 минуты — до часа.</li>
+                <li class="block-conditions__list-item block-conditions__indent-large  block-conditions__text_darkColor ">Если няня опоздала на визит более чем на 15 минут, вы не оплачиваете первый час ее работы. </li>
+                <li class="block-conditions__list-item block-conditions__indent-large  block-conditions__text_darkColor ">По договоренности с координатором вы можете оплатить услуги Сервиса заранее, например, на месяц вперед.</li>
+                <li class="block-conditions__list-item block-conditions__indent-large  block-conditions__text_darkColor ">Если вы оплачиваете услуги Сервиса заранее, например, на месяц вперед, то мы ведем учет отработанных в вашей семье часов и в конце месяца согласуем с вами фактически отработанное количество времени.</li>
+                <li class="block-conditions__list-item block-conditions__indent-large block-conditions__text_darkColor ">Если у вас останутся неотработанные часы, мы можем их перенести на следующий месяц или вернуть деньги вам на счет. Если по истечении месяца няня отработает у вас большее количество часов, чем вы оплатили заранее, то мы согласуем доплату в соответствии с отработанными дополнительно часами.</li>
+                <li class="block-conditions__list-item block-conditions__indent-large block-conditions__text_darkColor ">Мы с пониманием относимся к возникновению потребности в отсрочке платежа, поэтому если у вас возникла такая ситуация, то обязательно свяжитесь с координатором Сервиса для согласования отсрочки сроком до двух календарных недель.</li>
+            </ul>
+            <div class="block-conditions__wapper ">
+               <div class="block-conditions__wrapper-icon">
+                <svg x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;"> <circle style="fill:#ffffff;" cx="12.125" cy="12.125" r="12"></circle> <g> <path style="fill:#ff6c70;" d="M10.922,6.486c0-0.728,0.406-1.091,1.217-1.091s1.215,0.363,1.215,1.091c0,0.347-0.102,0.617-0.304,0.81 c-0.202,0.193-0.507,0.289-0.911,0.289C11.328,7.585,10.922,7.219,10.922,6.486z M13.252,17.792h-2.234V9.604h2.234V17.792z"></path> </g> </svg>
+               </div>
+               <div class="block-conditions__wrapper-text">
+                <p class="block-conditions_text block-conditions__text_lightColor  block-conditions__indent-large"> Оплата визитов няни осуществляется только через платежную систему, размещенную на сайте в личном кабинете. Расчеты наличными запрещены. В случае нарушения этого правила, Клиент отключается от Сервиса и Сервис перестает работать с няней, нарушившей правила.</p>
+                <p class="block-conditions_text block-conditions__text_lightColor  block-conditions__indent-large"> Если у вас возникают вопросы по заказу, оплате и работе Сервиса, обращайтесь на электронную почту. <a href="mailto:mailto:info@mynanny.pro" class="block-conditions_text block-conditions__text_lightColor block-conditions__link_decoration"> info@mynanny.pro </a>  или по телефону 
+                    <a href="tel:+74951368007" class="block-conditions_text block-conditions__text_lightColor ">+7(495)136-80-07</a>  </p>
+            </div>
+
+            </div>
+            <div class="block-conditions__wapper2">
+                <div class="block-conditions__wapper2-item1"><a class="block-conditions__wrapper2-link" href="/"><span>Политика конфиденциальности</span>  </a></div>
+                <div class="block-conditions__wapper2-item2"> <a class="block-conditions__wrapper2-link" href="https://le-de.ru/">©2021</a></div>
+                <div class="block-conditions__wapper2-item3"><a class="block-conditions__wrapper2-link " href="https://lede.pro/">разработка: <span>LeDesign</span> </a>
+                </div>
+               
+                
+            </div>
+
+           
+
+        </div>
     </div>
 </div>
 </body>
