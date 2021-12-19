@@ -1,0 +1,50 @@
+.block-conditions__background_color {
+    background-color: $backgroundColor;
+
+}
+
+.block-conditions {
+    text-align: left;
+    width: 100vw;
+}
+
+.block-conditions__h2 {
+    font-weight: 600;
+    color: $darkColor;
+    padding-top: 0.5rem;
+    padding-bottom: 0.18rem;
+    margin: 0;
+
+
+    @media (min-width:$desktop) {
+
+        font-size: 3.1rem;
+
+    }
+
+    @media (min-width: $tablet) and (max-width:$desktop) {
+
+        font-size: 3rem;
+
+    }
+
+    @media (min-width:$mobile) and (max-width:$tablet) {
+
+        font-size: 1.87rem;
+    }
+
+    @media (max-width:$mobile) {
+
+        font-size: 1.75rem;
+
+    }
+}
+
+
+.block-conditions__h4 {
+    color: #292f36;
+    font-size: 1.12rem;
+    font-weight: 600;
+    padding-top: 4.68rem;
+    padding-bottom: 1.87rem;
+}
