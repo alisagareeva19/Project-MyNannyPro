@@ -925,7 +925,7 @@
 
 .block-whowe__image {
   width: 30vw;
-  height: 850px;
+  height: 800px;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1613,6 +1613,55 @@ li {
 
 .regular-visits__list_h3 {
   color: #4DCDC4;
+}
+
+.block-conditions__background_color {
+  background-color: #F2F2F5;
+}
+
+.block-conditions {
+  text-align: left;
+  width: 100vw;
+}
+
+.block-conditions__h2 {
+  font-weight: 600;
+  color: #292F36;
+  padding-top: 0.5rem;
+  padding-bottom: 0.18rem;
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  .block-conditions__h2 {
+    font-size: 3.1rem;
+  }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+  .block-conditions__h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 960px) {
+  .block-conditions__h2 {
+    font-size: 1.87rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .block-conditions__h2 {
+    font-size: 1.75rem;
+  }
+}
+
+.block-conditions__h4 {
+  color: #292f36;
+  font-size: 1.12rem;
+  font-weight: 600;
+  padding-top: 4.68rem;
+  padding-bottom: 1.87rem;
 }
 
 .blockdif {
