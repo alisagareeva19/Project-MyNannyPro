@@ -3961,4 +3961,65 @@ li {
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
 }
+
+.btn_black {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #292F36;
+  font-size: 1.1rem;
+  line-height: 1.55;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.1rem 3.4rem 1.1rem 3.4rem;
+  border: none;
+}
+
+.btn_black:hover {
+  cursor: pointer;
+  -webkit-transition: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+
+.btn_black_defaultcolor {
+  background: #4DCDC4;
+}
+
+.btn_black_defaultcolor:hover {
+  background: #2BABA0;
+}
+
+.btn_black_accentСolor {
+  background: #FEE474;
+}
+
+.btn_black_accentСolor:hover {
+  background: #F5D536;
+}
+
+.btn_black_defaultcolor-accentСolor {
+  background: #4DCDC4;
+}
+
+.btn_black_defaultcolor-accentСolor:hover {
+  background: #F5D536;
+  color: #292F36;
+}
+
+.btn_black_lightColor-darkСolor {
+  background-color: #FFFFFF;
+  color: #292F36;
+}
+
+.btn_black_lightColor-darkСolor:hover {
+  background-color: #292F36;
+  color: #FFFFFF;
+}
+
+.btn_black_small {
+  font-size: 0.8rem;
+  padding: 0.7rem 2rem 0.7rem;
+}
 /*# sourceMappingURL=style.css.map */
