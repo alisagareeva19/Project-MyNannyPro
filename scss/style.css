@@ -3,6 +3,22 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+          box-shadow: 1px 1px 10px rgba(78, 55, 55, 0.1);
+  background-color: #F2F2F5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4DCDC4;
+  border-radius: 8px;
+  border: 3px solid #F2F2F5;
+}
+
 .btn {
   display: inline-block;
   -webkit-box-sizing: border-box;
