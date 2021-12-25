@@ -143,7 +143,7 @@
     max-height: 0;
     opacity: 0;
     transition: 0.1s ease-in;
-    overflow: hidden;
+    margin: 0;
 }
 
 .zagruska-proizvod-container .zagruska-proizvod-btn,
@@ -187,6 +187,29 @@
     max-height: 999rem;
     opacity: 1;
     transition: 0.2s ease-in;
+    width: 17vw;
+    height: 40vw;
+    margin: 2rem 0.5rem 2rem;
+
+    @media (min-width: $tablet) {
+        margin-bottom: 1rem;
+    }
+
+    @media (max-width: $tablet) {
+        margin-bottom: 3rem;
+    }
+
+    @media (max-width: $mobile) {
+        width: 33vw;
+        height: 50vw;
+        margin-bottom: 8rem;
+    }
+
+    @media (max-width: $smallMobile) {
+        width: 60vw;
+        height: 65vw;
+        margin: 3rem 0 2rem;
+    }
 }
 
 .zagruska-proizvod-container #zagruska-proizvod:checked~.zagruska-proizvod-btn .loaded,
@@ -239,7 +262,7 @@
 .team-member__image img#moscow_2,
 .team-member__image img#moscow_5,
 .team-member__image img#moscow_6,
-.team-member__image img#moscow_8,
+// .team-member__image img#moscow_8,
 .team-member__image img#moscow_9,
 .team-member__image img#moscow_10,
 .team-member__image img#moscow_11,
@@ -289,15 +312,14 @@
 .soon-content__img {
     width: 20rem;
     height: auto;
-    margin-left: 25vw;
+    margin-left: 27vw;
 
     @media (max-width: $tablet) {
-        margin-left: 19vw;
+        margin-left: 17vw;
     }
 
     @media (max-width: $mobile) {
         width: 15rem;
-        margin-left: 13vw;
     }
 
     @media (max-width: $smallMobile) {

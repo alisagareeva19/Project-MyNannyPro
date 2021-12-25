@@ -191,11 +191,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header__page {
-  margin-right: 20px;
+  margin-right: 12px;
   color: #292F36;
 }
 
 .header__page:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #4DCDC4;
+}
+
+.header__page_active {
   padding-bottom: 3px;
   border-bottom: 2px solid #4DCDC4;
 }
@@ -3883,7 +3888,7 @@ li {
   opacity: 0;
   -webkit-transition: 0.1s ease-in;
   transition: 0.1s ease-in;
-  overflow: hidden;
+  margin: 0;
 }
 
 .zagruska-proizvod-container .zagruska-proizvod-btn,
@@ -3932,6 +3937,41 @@ li {
   opacity: 1;
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
+  width: 17vw;
+  height: 40vw;
+  margin: 2rem 0.5rem 2rem;
+}
+
+@media (min-width: 960px) {
+  .zagruska-proizvod-container #zagruska-proizvod:checked ~ ul li:nth-child(1n + 9),
+  .zagruska-proizvod-container2 #zagruska-proizvod2:checked ~ ul li:nth-child(1n + 9) {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .zagruska-proizvod-container #zagruska-proizvod:checked ~ ul li:nth-child(1n + 9),
+  .zagruska-proizvod-container2 #zagruska-proizvod2:checked ~ ul li:nth-child(1n + 9) {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .zagruska-proizvod-container #zagruska-proizvod:checked ~ ul li:nth-child(1n + 9),
+  .zagruska-proizvod-container2 #zagruska-proizvod2:checked ~ ul li:nth-child(1n + 9) {
+    width: 33vw;
+    height: 50vw;
+    margin-bottom: 8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .zagruska-proizvod-container #zagruska-proizvod:checked ~ ul li:nth-child(1n + 9),
+  .zagruska-proizvod-container2 #zagruska-proizvod2:checked ~ ul li:nth-child(1n + 9) {
+    width: 60vw;
+    height: 65vw;
+    margin: 3rem 0 2rem;
+  }
 }
 
 .zagruska-proizvod-container #zagruska-proizvod:checked ~ .zagruska-proizvod-btn .loaded,
@@ -3989,7 +4029,6 @@ li {
 .team-member__image img#moscow_2,
 .team-member__image img#moscow_5,
 .team-member__image img#moscow_6,
-.team-member__image img#moscow_8,
 .team-member__image img#moscow_9,
 .team-member__image img#moscow_10,
 .team-member__image img#moscow_11,
@@ -4042,19 +4081,18 @@ li {
 .soon-content__img {
   width: 20rem;
   height: auto;
-  margin-left: 25vw;
+  margin-left: 27vw;
 }
 
 @media (max-width: 960px) {
   .soon-content__img {
-    margin-left: 19vw;
+    margin-left: 17vw;
   }
 }
 
 @media (max-width: 640px) {
   .soon-content__img {
     width: 15rem;
-    margin-left: 13vw;
   }
 }
 

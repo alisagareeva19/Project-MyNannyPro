@@ -30,13 +30,18 @@
 }
 
 .header__page {
-    margin-right: 20px;
+    margin-right: 12px;
     color: $darkColor;
 
     &:hover {
         padding-bottom: 3px;
         border-bottom: 2px solid $defaultColor;
     }
+}
+
+.header__page_active {
+    padding-bottom: 3px;
+    border-bottom: 2px solid $defaultColor;
 }
 
 .header__buttons {
