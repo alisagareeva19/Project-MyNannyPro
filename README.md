@@ -2,4 +2,4 @@
 
 https://mrglk.github.io/projectMynanny/
 
-HTML и Sass
+HTML и SCSS
